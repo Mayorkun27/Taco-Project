@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header .navbar{
+    position: fixed;
+    top: 0px;left: 0;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    box-shadow: 0.5rem, 1rem rgba(0, 0, 0, .1);
+    /* padding: 2rem 9%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .navbar>a{
+    color: black;
+    text-decoration: none;
+    font-size: 2.0rem;
+    margin-left: 50px;
+}
+
+header .navbar>a span{
+    color: dodgerblue;
+}
+
+
+.navbar .container ul li,
+.navbar .second-container ul li{
+    list-style-type: none;
+}
+
+.navbar .container ul li a,
+.navbar .second-container ul li a,
+.navbar .second-container ul button a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+header .navbar input{
+    display: none;
+}
+
+header .navbar label{
+    color: black;
+    font-size: 50px;
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+header .navbar .contain{
+    display: flex;
+}
+
+header .navbar .container ul{
+    display: flex;
+    margin-left: 70px;
+}
+
+header .navbar .container ul li{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+header .navbar .second-container ul{
+    display: flex;
+    padding-top: 3px;
+    margin-left: 300px;
+}
+
+header .navbar .second-container ul li{
+    padding: 20px;
+}
+
+.navbar .second-container ul button{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: dodgerblue;
+    background: #fff;
+}
+
+.navbar .second-container ul button a{
+    text-align: center;
+    justify-content: center;
+    color: dodgerblue;
+}
+
+
+.heading{
+    background: rgb(227, 225, 225);
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+}
+
+.page{
+    margin-left: 200px;
+    text-transform: capitalize;
+    padding-top: 70px;
+}
+
+.page p{
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.page h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.btn{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: dodgerblue;
+    background: dodgerblue;
+    color: #fff;
+    border-width: 0px;
+    margin-right: 20px;
+    transition: all .3s linear;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.heading .pages img{
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.heading .page .button{
+    margin-top: 40px;
+}
+
+.heading .page .button #fas a{
+    color: black;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.features{
+    background: black;
+    color: #fff;
+    height: 60vh;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-list ul{
+    padding-top: 50px;
+    list-style-type: square;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin-left: 300px;
+}
+
+.features img{
+    margin-top: 180px;
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.review{
+    background: dodgerblue;
+    color: #fff;
+    display: flex;
+    height: 85vh;
+}
+
+.box-container{
+    height: 320px;
+    width: 300px;
+    background: rgb(20, 97, 174);
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.user-img img{
+    border: 5px solid dodgerblue;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-container .comment{
+    padding: 0 10px;
+}
+
+
+.contact{
+    background: rgb(227, 225, 225);
+    height: 80vh;
+    padding-top: 50px;
+}
+
+.forms{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    margin-left: 80px;
+    justify-content: space-between;
+}
+
+.form h2{
+    padding-bottom: 50px;
+    font-size: 1.7rem;
+}
+
+.form input{
+    height: 20px;
+    width: 250px;
+}
+
+.form textarea{
+    width: 250px;
+    height: 100px;
+}
+
+.form input,
+.form textarea{
+    margin: 10px 20px;
+    border: 5px;
+}
+
+.form label{
+    font-size: 1.2rem;
+}
+
+.forms img{
+    height: 400px;
+    width: 300px;
+    margin-top: -50px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+
+    header .navbar .second-container ul{
+        margin-left: 200px;
+    }
+    
+    .features .feature img{
+        margin-top: 230px;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    
+}
+
+
+@media (max-width:990px){
+
+    header .navbar{
+        justify-content: unset;
+    }
+
+    .navbar .contain .container ul{
+        margin-left: 0;
+    }
+    header .navbar .contain .second-container ul{
+        margin-left: 90px;
+    }
+
+    .features .feature img{
+        margin-top: 130px;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .review{
+        height: 90vh;
+        width: 100%;
+    }
+    
+    .review .box-container{
+        height: 250px;
+        width: 290px;
+        margin-left: 30px
+    }
+    
+    .user-img{
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+    
+    .user-img img{
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .box-container .comment{
+        padding: 5px 10px;
+        font-size: 90%;
+    }
+
+}
+
+
+
+
+
+@media (max-width:270px){
+
+    html{
+        overflow-x: hidden;
+    }
+
+    header .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .navbar label{
+        color: black;
+        margin-left: 200px;
+        font-size: 50px;
+        opacity: 0.5;
+        visibility: visible;
+        display: flex;
+    }    
+
+    .navbar .contain .container ul,
+    .navbar .contain .second-container ul{
+        display: none;
+    }
+
+    .navbar .container ul li a,
+    .navbar .second-container ul li a{
+        visibility: visible;
+    }
+
+    .heading{
+        background: rgb(227, 225, 225);
+        width: 228%;
+        height: 130vh;
+        margin-top: 60px;
+    }
+
+    .pages{
+        display: grid;
+        align-items: center;
+    }
+
+    
+    .page{
+        margin-left: 180px;
+    }
+    
+    .btn{
+        margin-bottom: 10px;
+    }
+
+    .heading .pages img{
+        width: 350px;
+        height: 300px;
+        padding-top: 10px;
+        padding-left: 80px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    .heading .page .button{
+        margin-top: 40px;
+        display: grid;
+    }
+    
+    
+    .features{
+        background: black;
+        color: #fff;
+        height: 60vh;
+        width: max-content;
+    }
+
+    .feature{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .f-list ul{
+        padding-top: 50px;
+        margin-left: 100px;
+    }
+
+    .features .feature img{
+        margin-top: 190px;
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    
+    .review{
+        background: dodgerblue;
+        color: #fff;
+        display: grid;
+        height: 230vh;
+        width: 230%;
+        justify-content: center;
+    }
+    
+    .box-container{
+        height: 250px;
+        width: 300px;
+        margin-right: 40px;
+        margin-bottom: -20px;
+    }
+    
+    .user-img{
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+    
+    .user-img img{
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .box-container .comment{
+        padding: 5px 10px;
+        font-size: 90%;
+    }
+    
+    .contact{
+        height: max-content;
+        width: 228vw;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    
+    .forms{
+        display: grid;
+    }
+    
+    .form{
+        margin-left: 80px;
+        margin-bottom: 100px;
+    }
+    
+    .form input{
+        height: 40px;
+        width: 450px;
+    }
+    
+    .form textarea{
+        width: 450px;
+        height: 150px;
+    }
+    
+    .form input,
+    .form textarea{
+        margin: 10px 20px;
+        border: 5px;
+    }
+    
+    .form label{
+        font-size: 1.2rem;
+    }
+    
+    .forms img{
+        margin: 30px 0px;
+        height: 900px;
+        width: 620px;
+    }
+    
+}
+

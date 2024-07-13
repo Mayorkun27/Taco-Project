@@ -1,0 +1,43 @@
+*{
+    justify-content: center;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.label{
+    height: 2rem;
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    text-indent: 10px;
+}
+
+.button{
+    background-color: #222;
+    color: #fff;
+    width: 300px;
+    height: 2.5rem;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button :hover :active :visited{
+    color: #444;
+}
+
+h3{
+    margin-left: 35vw;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+p{
+    margin-left: 35vw;
+}
+
+.p{
+    justify-content: center;
+}

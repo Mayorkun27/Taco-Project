@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: burlywood;
+}
+
+table, tr, th, td, caption{
+    border: 2px solid #eee;font-family: 'Courier New', Courier, monospace; border-collapse: collapse;
+    padding: 2.0rem;
+    background-color: cadetblue;
+    height: 10px;
+}
+.Home{
+    padding: 50px;
+    color: azure;
+    width: 1000px;
+    margin-left: 70px;
+}
+
+.Contact{
+    padding: 50px;
+    color: azure;
+    width: 1000px;
+    margin-left: 70px;
+}
+
+.button{
+    margin-left: 30px;
+}
+.label{
+    width: 500px;
+    margin-top: 20px;
+    border-color: darkkhaki;
+    border-width: 3px;
+    border-radius: 10px;
+    text-indent: 5px;
+}
+
+.hours{
+    padding: 50px;
+    color: azure;
+    width: 1000px;
+    margin-left: 70px;
+}
+
+figure{
+    width: 200px;
+    height: 200px;
+}
+
+.nav nav ul li{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.nav nav ul li a{
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.nav nav ul li a:hover{
+    text-decoration: underline;
+}
+
+figure figcaption{
+    color: #eee;
+    text-decoration: underline;
+    cursor: default;
+}
+
+fieldset{
+    border-radius: 15px;
+    box-shadow: 0.5rem 1rem rgba(0,0,0,.1);;
+}
+
+form button{
+    margin:22px 10px;
+    width: 100px;
+    height: 30px;
+    background-color: burlywood;
+    color: #eee;
+    border-radius: 10px;
+    border-color: darkkhaki;
+    border-width: 3px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+form button:hover{
+    transform: scale(1.1);
+}
+
+footer p a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+fieldset form textarea{
+    width: 600px;
+    height: 300px;
+    text-indent: 5px;
+}

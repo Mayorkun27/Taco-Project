@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+
+body{
+    background-image: url(images/pink2.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+header nav ul li{
+    display: inline-flex;
+    color: #fff;
+}
+
+nav .img img{
+    height: 40px;
+    width: 200px;
+    margin: 10px 70px;
+    border: 5px solid #fff ;
+    padding: 2px 2px;
+    background: transparent;
+}
+
+nav ul li a{
+    list-style-type: none;
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin: 10px 10px;
+    transition: all 1s linear;
+}
+
+nav ul li a span{
+    border: #fff solid;
+    background: #fff;
+    color: black;
+}
+
+nav ul li a span{
+    width: 20px;
+    padding: 2px 25px;
+}
+
+.main{
+    text-align: center;
+    margin-top: 11rem;
+}
+
+main p{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    transition: all 1s linear;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    margin: 0px 10px;
+    background: #fff;
+    color: #000;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+nav ul li a span:hover{
+    text-decoration-line: unset;
+}

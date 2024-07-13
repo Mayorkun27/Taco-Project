@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyins Promise</title>
+</head>
+<body>
+    <center><h2>Hello Oyinkansola!</h2></center>
+
+    <center>
+        <form>
+            <p>Are you in a relationship??</p>
+            <input type="radio" name="ship" onclick="fufill()">
+            <label for="yes">Yes</label>
+            <input type="radio" name="ship" onclick="later()">
+            <label for="no">No</label>
+        </form>
+        <h3 class="remind"></h3>
+    </center>
+
+
+
+    <script>
+        function fufill() {
+           let remind = document.querySelector("h3");
+           remind.innerHTML = `Take Oluwamayokun to a spa as promised  &#128526 &#128526 &#128526`
+        }
+        function later() {
+           let remind = document.querySelector("h3");
+           remind.innerHTML = `Enjoy your single life then &#128514 &#128514 &#128514` 
+        }
+    </script>
+</body>
+</html>
